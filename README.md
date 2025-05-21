@@ -4,18 +4,18 @@ Advantage Kit logged swerve drive base code, intended for PR events
 Max linear speed is adjustable on dashboard when tunning mode boolean is set to true in Constants.java
 
 ## Simple swerve drive controls:
-Left Stick - Forward, Back, Left, Right
-Right Stick - Rotation
-A - Lock to 0 degrees
-X - Wheels to x pattern
-B - Reset Gyro to 0 degrees
+- Left Stick - Forward, Back, Left, Right
+- Right Stick - Rotation
+- A - Lock to 0 degrees
+- X - Wheels to x pattern
+- B - Reset Gyro to 0 degrees
 
 ## Hardware
-Drive Motors: SparkMax/Neo
-Angle Motors: SparkMax/Neo
-Absolute Encoders: CANCoders
-Gyro: Pigeon 2.0
-Input: XBox Controller on Port 0
+- Drive Motors: SparkMax/Neo
+- Angle Motors: SparkMax/Neo
+- Absolute Encoders: CANCoders
+- Gyro: Pigeon 2.0
+- Input: XBox Controller on Port 0
 
 ## Setup - In DriveConstants.java:
 1. Set CAN IDs for motors, CANCoders, and Pigeon in respective variables
