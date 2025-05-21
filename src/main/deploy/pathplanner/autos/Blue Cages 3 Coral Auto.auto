@@ -1,0 +1,142 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Blue Cage Start to Reef"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AlignReefLeft"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "CoralStateL4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ReleaseCoral"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Blue cage start reef to feeder"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlignCoralStation"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "DelayUntilCoralIntake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Blue Feeder to closest L4"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AlignReefLeft"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "CoralStateL4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ReleaseCoral"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Blue Closest L4 to Feeder"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlignCoralStation"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "DelayUntilCoralIntake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Blue Feeder to closest L4"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AlignReefRight"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "CoralStateL4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ReleaseCoral"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
